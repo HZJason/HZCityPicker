@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50A7F7721F18656100F58AB3 /* HZLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7F7711F18656100F58AB3 /* HZLocation.m */; };
+		50CC3F4A1F18714500E03C7B /* 城市选择器.gif in Resources */ = {isa = PBXBuildFile; fileRef = 50CC3F491F18714500E03C7B /* 城市选择器.gif */; };
 		50F2AD0B1F177C200088C17C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD0A1F177C200088C17C /* main.m */; };
 		50F2AD0E1F177C200088C17C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD0D1F177C200088C17C /* AppDelegate.m */; };
 		50F2AD111F177C200088C17C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD101F177C200088C17C /* ViewController.m */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		50A7F7701F18656100F58AB3 /* HZLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLocation.h; sourceTree = "<group>"; };
 		50A7F7711F18656100F58AB3 /* HZLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLocation.m; sourceTree = "<group>"; };
+		50CC3F491F18714500E03C7B /* 城市选择器.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "城市选择器.gif"; sourceTree = "<group>"; };
 		50F2AD061F177C200088C17C /* HZCityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F2AD0A1F177C200088C17C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50F2AD0C1F177C200088C17C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,9 +101,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50CC3F481F18712E00E03C7B /* 效果图 */ = {
+			isa = PBXGroup;
+			children = (
+				50CC3F491F18714500E03C7B /* 城市选择器.gif */,
+			);
+			path = "效果图";
+			sourceTree = "<group>";
+		};
 		50F2ACFD1F177C200088C17C = {
 			isa = PBXGroup;
 			children = (
+				50CC3F481F18712E00E03C7B /* 效果图 */,
 				50F2AD081F177C200088C17C /* HZCityPicker */,
 				50F2AD221F177C210088C17C /* HZCityPickerTests */,
 				50F2AD2D1F177C210088C17C /* HZCityPickerUITests */,
@@ -296,6 +307,7 @@
 				50F2AD161F177C200088C17C /* Assets.xcassets in Resources */,
 				50F2AD141F177C200088C17C /* Main.storyboard in Resources */,
 				50F2AD3E1F177C700088C17C /* CityData.plist in Resources */,
+				50CC3F4A1F18714500E03C7B /* 城市选择器.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
