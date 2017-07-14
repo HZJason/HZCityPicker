@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A7F7721F18656100F58AB3 /* HZLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7F7711F18656100F58AB3 /* HZLocation.m */; };
+		50F2AD0B1F177C200088C17C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD0A1F177C200088C17C /* main.m */; };
+		50F2AD0E1F177C200088C17C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD0D1F177C200088C17C /* AppDelegate.m */; };
+		50F2AD111F177C200088C17C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD101F177C200088C17C /* ViewController.m */; };
+		50F2AD141F177C200088C17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F2AD121F177C200088C17C /* Main.storyboard */; };
+		50F2AD161F177C200088C17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F2AD151F177C200088C17C /* Assets.xcassets */; };
+		50F2AD191F177C200088C17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F2AD171F177C200088C17C /* LaunchScreen.storyboard */; };
+		50F2AD241F177C210088C17C /* HZCityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD231F177C210088C17C /* HZCityPickerTests.m */; };
+		50F2AD2F1F177C210088C17C /* HZCityPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD2E1F177C210088C17C /* HZCityPickerUITests.m */; };
+		50F2AD3E1F177C700088C17C /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50F2AD3D1F177C700088C17C /* CityData.plist */; };
+		50F2AD411F177C9A0088C17C /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD401F177C9A0088C17C /* CityModel.m */; };
+		50F2AD441F177D7A0088C17C /* CityGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD431F177D7A0088C17C /* CityGroupCell.m */; };
+		50F2AD481F177E5B0088C17C /* CityPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD471F177E5B0088C17C /* CityPickerController.m */; };
+		50F2AD4B1F177F480088C17C /* CityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD4A1F177F480088C17C /* CityHeaderView.m */; };
+		50F2AD4E1F1780100088C17C /* CityPickerSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2AD4D1F1780100088C17C /* CityPickerSearchResultController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F2AD201F177C210088C17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F2ACFE1F177C200088C17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F2AD051F177C200088C17C;
+			remoteInfo = HZCityPicker;
+		};
+		50F2AD2B1F177C210088C17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F2ACFE1F177C200088C17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F2AD051F177C200088C17C;
+			remoteInfo = HZCityPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A7F7701F18656100F58AB3 /* HZLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLocation.h; sourceTree = "<group>"; };
+		50A7F7711F18656100F58AB3 /* HZLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLocation.m; sourceTree = "<group>"; };
+		50F2AD061F177C200088C17C /* HZCityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F2AD0A1F177C200088C17C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F2AD0C1F177C200088C17C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50F2AD0D1F177C200088C17C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50F2AD0F1F177C200088C17C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50F2AD101F177C200088C17C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50F2AD131F177C200088C17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F2AD151F177C200088C17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F2AD181F177C200088C17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F2AD1A1F177C200088C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F2AD1F1F177C210088C17C /* HZCityPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZCityPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F2AD231F177C210088C17C /* HZCityPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCityPickerTests.m; sourceTree = "<group>"; };
+		50F2AD251F177C210088C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F2AD2A1F177C210088C17C /* HZCityPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZCityPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F2AD2E1F177C210088C17C /* HZCityPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCityPickerUITests.m; sourceTree = "<group>"; };
+		50F2AD301F177C210088C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F2AD3D1F177C700088C17C /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
+		50F2AD3F1F177C9A0088C17C /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		50F2AD401F177C9A0088C17C /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		50F2AD421F177D7A0088C17C /* CityGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityGroupCell.h; sourceTree = "<group>"; };
+		50F2AD431F177D7A0088C17C /* CityGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityGroupCell.m; sourceTree = "<group>"; };
+		50F2AD451F177DC00088C17C /* CityPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerDelegate.h; sourceTree = "<group>"; };
+		50F2AD461F177E5B0088C17C /* CityPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerController.h; sourceTree = "<group>"; };
+		50F2AD471F177E5B0088C17C /* CityPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerController.m; sourceTree = "<group>"; };
+		50F2AD491F177F480088C17C /* CityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityHeaderView.h; sourceTree = "<group>"; };
+		50F2AD4A1F177F480088C17C /* CityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityHeaderView.m; sourceTree = "<group>"; };
+		50F2AD4C1F1780100088C17C /* CityPickerSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerSearchResultController.h; sourceTree = "<group>"; };
+		50F2AD4D1F1780100088C17C /* CityPickerSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerSearchResultController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F2AD031F177C200088C17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2AD1C1F177C210088C17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2AD271F177C210088C17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F2ACFD1F177C200088C17C = {
+			isa = PBXGroup;
+			children = (
+				50F2AD081F177C200088C17C /* HZCityPicker */,
+				50F2AD221F177C210088C17C /* HZCityPickerTests */,
+				50F2AD2D1F177C210088C17C /* HZCityPickerUITests */,
+				50F2AD071F177C200088C17C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F2AD071F177C200088C17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F2AD061F177C200088C17C /* HZCityPicker.app */,
+				50F2AD1F1F177C210088C17C /* HZCityPickerTests.xctest */,
+				50F2AD2A1F177C210088C17C /* HZCityPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F2AD081F177C200088C17C /* HZCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				50F2AD3C1F177C5B0088C17C /* CityPicker */,
+				50F2AD0C1F177C200088C17C /* AppDelegate.h */,
+				50F2AD0D1F177C200088C17C /* AppDelegate.m */,
+				50F2AD0F1F177C200088C17C /* ViewController.h */,
+				50F2AD101F177C200088C17C /* ViewController.m */,
+				50F2AD121F177C200088C17C /* Main.storyboard */,
+				50F2AD151F177C200088C17C /* Assets.xcassets */,
+				50F2AD171F177C200088C17C /* LaunchScreen.storyboard */,
+				50F2AD1A1F177C200088C17C /* Info.plist */,
+				50F2AD091F177C200088C17C /* Supporting Files */,
+			);
+			path = HZCityPicker;
+			sourceTree = "<group>";
+		};
+		50F2AD091F177C200088C17C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F2AD0A1F177C200088C17C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F2AD221F177C210088C17C /* HZCityPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F2AD231F177C210088C17C /* HZCityPickerTests.m */,
+				50F2AD251F177C210088C17C /* Info.plist */,
+			);
+			path = HZCityPickerTests;
+			sourceTree = "<group>";
+		};
+		50F2AD2D1F177C210088C17C /* HZCityPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50F2AD2E1F177C210088C17C /* HZCityPickerUITests.m */,
+				50F2AD301F177C210088C17C /* Info.plist */,
+			);
+			path = HZCityPickerUITests;
+			sourceTree = "<group>";
+		};
+		50F2AD3C1F177C5B0088C17C /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				50A7F7701F18656100F58AB3 /* HZLocation.h */,
+				50A7F7711F18656100F58AB3 /* HZLocation.m */,
+				50F2AD3D1F177C700088C17C /* CityData.plist */,
+				50F2AD3F1F177C9A0088C17C /* CityModel.h */,
+				50F2AD401F177C9A0088C17C /* CityModel.m */,
+				50F2AD421F177D7A0088C17C /* CityGroupCell.h */,
+				50F2AD431F177D7A0088C17C /* CityGroupCell.m */,
+				50F2AD491F177F480088C17C /* CityHeaderView.h */,
+				50F2AD4A1F177F480088C17C /* CityHeaderView.m */,
+				50F2AD461F177E5B0088C17C /* CityPickerController.h */,
+				50F2AD471F177E5B0088C17C /* CityPickerController.m */,
+				50F2AD451F177DC00088C17C /* CityPickerDelegate.h */,
+				50F2AD4C1F1780100088C17C /* CityPickerSearchResultController.h */,
+				50F2AD4D1F1780100088C17C /* CityPickerSearchResultController.m */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F2AD051F177C200088C17C /* HZCityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F2AD331F177C210088C17C /* Build configuration list for PBXNativeTarget "HZCityPicker" */;
+			buildPhases = (
+				50F2AD021F177C200088C17C /* Sources */,
+				50F2AD031F177C200088C17C /* Frameworks */,
+				50F2AD041F177C200088C17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZCityPicker;
+			productName = HZCityPicker;
+			productReference = 50F2AD061F177C200088C17C /* HZCityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F2AD1E1F177C210088C17C /* HZCityPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F2AD361F177C210088C17C /* Build configuration list for PBXNativeTarget "HZCityPickerTests" */;
+			buildPhases = (
+				50F2AD1B1F177C210088C17C /* Sources */,
+				50F2AD1C1F177C210088C17C /* Frameworks */,
+				50F2AD1D1F177C210088C17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F2AD211F177C210088C17C /* PBXTargetDependency */,
+			);
+			name = HZCityPickerTests;
+			productName = HZCityPickerTests;
+			productReference = 50F2AD1F1F177C210088C17C /* HZCityPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50F2AD291F177C210088C17C /* HZCityPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F2AD391F177C210088C17C /* Build configuration list for PBXNativeTarget "HZCityPickerUITests" */;
+			buildPhases = (
+				50F2AD261F177C210088C17C /* Sources */,
+				50F2AD271F177C210088C17C /* Frameworks */,
+				50F2AD281F177C210088C17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F2AD2C1F177C210088C17C /* PBXTargetDependency */,
+			);
+			name = HZCityPickerUITests;
+			productName = HZCityPickerUITests;
+			productReference = 50F2AD2A1F177C210088C17C /* HZCityPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F2ACFE1F177C200088C17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "黄泽";
+				TargetAttributes = {
+					50F2AD051F177C200088C17C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX884VZ75G;
+						ProvisioningStyle = Automatic;
+					};
+					50F2AD1E1F177C210088C17C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX884VZ75G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F2AD051F177C200088C17C;
+					};
+					50F2AD291F177C210088C17C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX884VZ75G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F2AD051F177C200088C17C;
+					};
+				};
+			};
+			buildConfigurationList = 50F2AD011F177C200088C17C /* Build configuration list for PBXProject "HZCityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F2ACFD1F177C200088C17C;
+			productRefGroup = 50F2AD071F177C200088C17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F2AD051F177C200088C17C /* HZCityPicker */,
+				50F2AD1E1F177C210088C17C /* HZCityPickerTests */,
+				50F2AD291F177C210088C17C /* HZCityPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F2AD041F177C200088C17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2AD191F177C200088C17C /* LaunchScreen.storyboard in Resources */,
+				50F2AD161F177C200088C17C /* Assets.xcassets in Resources */,
+				50F2AD141F177C200088C17C /* Main.storyboard in Resources */,
+				50F2AD3E1F177C700088C17C /* CityData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2AD1D1F177C210088C17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2AD281F177C210088C17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F2AD021F177C200088C17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2AD4B1F177F480088C17C /* CityHeaderView.m in Sources */,
+				50F2AD4E1F1780100088C17C /* CityPickerSearchResultController.m in Sources */,
+				50F2AD481F177E5B0088C17C /* CityPickerController.m in Sources */,
+				50F2AD411F177C9A0088C17C /* CityModel.m in Sources */,
+				50F2AD111F177C200088C17C /* ViewController.m in Sources */,
+				50F2AD0E1F177C200088C17C /* AppDelegate.m in Sources */,
+				50F2AD0B1F177C200088C17C /* main.m in Sources */,
+				50A7F7721F18656100F58AB3 /* HZLocation.m in Sources */,
+				50F2AD441F177D7A0088C17C /* CityGroupCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2AD1B1F177C210088C17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2AD241F177C210088C17C /* HZCityPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2AD261F177C210088C17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F2AD2F1F177C210088C17C /* HZCityPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F2AD211F177C210088C17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F2AD051F177C200088C17C /* HZCityPicker */;
+			targetProxy = 50F2AD201F177C210088C17C /* PBXContainerItemProxy */;
+		};
+		50F2AD2C1F177C210088C17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F2AD051F177C200088C17C /* HZCityPicker */;
+			targetProxy = 50F2AD2B1F177C210088C17C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F2AD121F177C200088C17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F2AD131F177C200088C17C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F2AD171F177C200088C17C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F2AD181F177C200088C17C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F2AD311F177C210088C17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F2AD321F177C210088C17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F2AD341F177C210088C17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX884VZ75G;
+				INFOPLIST_FILE = HZCityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jason.HZCityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50F2AD351F177C210088C17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX884VZ75G;
+				INFOPLIST_FILE = HZCityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jason.HZCityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50F2AD371F177C210088C17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX884VZ75G;
+				INFOPLIST_FILE = HZCityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jason.HZCityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZCityPicker.app/HZCityPicker";
+			};
+			name = Debug;
+		};
+		50F2AD381F177C210088C17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX884VZ75G;
+				INFOPLIST_FILE = HZCityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jason.HZCityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZCityPicker.app/HZCityPicker";
+			};
+			name = Release;
+		};
+		50F2AD3A1F177C210088C17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PX884VZ75G;
+				INFOPLIST_FILE = HZCityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jason.HZCityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HZCityPicker;
+			};
+			name = Debug;
+		};
+		50F2AD3B1F177C210088C17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PX884VZ75G;
+				INFOPLIST_FILE = HZCityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jason.HZCityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HZCityPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F2AD011F177C200088C17C /* Build configuration list for PBXProject "HZCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F2AD311F177C210088C17C /* Debug */,
+				50F2AD321F177C210088C17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F2AD331F177C210088C17C /* Build configuration list for PBXNativeTarget "HZCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F2AD341F177C210088C17C /* Debug */,
+				50F2AD351F177C210088C17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F2AD361F177C210088C17C /* Build configuration list for PBXNativeTarget "HZCityPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F2AD371F177C210088C17C /* Debug */,
+				50F2AD381F177C210088C17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F2AD391F177C210088C17C /* Build configuration list for PBXNativeTarget "HZCityPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F2AD3A1F177C210088C17C /* Debug */,
+				50F2AD3B1F177C210088C17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F2ACFE1F177C200088C17C /* Project object */;
+}
